@@ -2,6 +2,7 @@
 
 # Packages
 
+- Nextjs
 - Zustand for cache management
 - Tailwindcss
 - Shadcn for UI
