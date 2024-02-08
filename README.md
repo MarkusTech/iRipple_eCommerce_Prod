@@ -11,6 +11,7 @@
 - zod = for form validation
 - prisma
 - axios
+- react-hot-toast
 
 # Shadcn packages
 
