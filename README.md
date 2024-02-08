@@ -20,7 +20,7 @@
 - npx shadcn-ui@latest add dialog
 - npx shadcn-ui@latest add input
 
-# CLI
+# PRISMA CLI
 
 - npm i prisma
 - npm i @prisma/client
