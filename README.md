@@ -20,6 +20,7 @@
 
 # CLI
 
+- npm i prisma
 - npm i @prisma/client
 - npx prisma init
 
