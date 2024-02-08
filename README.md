@@ -24,6 +24,7 @@
 - npm i @prisma/client
 - npx prisma init
 - npx prisma db pull = to pull tables in database that manually created!
+- npx prisma db push = to push created table in schema.prisma into mysql database
 - npx prisma migrate dev
 - npx prisma generate = to generate created database in prisma module
 
