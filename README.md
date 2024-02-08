@@ -8,6 +8,7 @@
 - Shadcn for UI
 - TypeScript
 - Clerk for user Authentication
+- zod
 
 # Shadcn packages
 
