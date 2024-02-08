@@ -10,6 +10,7 @@
 - Clerk = for user Authentication
 - zod = for form validation
 - prisma
+- axios
 
 # Shadcn packages
 
