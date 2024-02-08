@@ -3,12 +3,13 @@
 # Packages
 
 - Nextjs
-- Zustand for cache management
+- Zustand = for cache management
 - Tailwindcss
-- Shadcn for UI
+- Shadcn = for UI
 - TypeScript
-- Clerk for user Authentication
-- zod
+- Clerk = for user Authentication
+- zod = for form validation
+- prisma
 
 # Shadcn packages
 
