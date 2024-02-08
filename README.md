@@ -22,3 +22,7 @@
 
 - npm i @prisma/client
 - npx prisma init
+
+# DATABASE
+
+- PlanetScale Platform - MYSQL
