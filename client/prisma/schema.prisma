@@ -11,10 +11,20 @@ datasource db {
   relationMode = "prisma"
 }
 
-model Store {
-  id        String   @id @default(uuid())
-  name      String
-  userId    String
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+// trial migration
+model Wmr_Admin {
+  id        Int    @id @default(autoincrement())
+  email     String @db.VarChar(255)
+  password  String @db.VarChar(255)
+  firstName String @map("first_name") @db.VarChar(255)
 }
+
+// for ecommerce
+
+// model Store {
+//   id        String   @id @default(uuid())
+//   name      String
+//   userId    String
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+// }

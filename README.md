@@ -25,6 +25,7 @@
 - npx prisma init
 - npx prisma generate = to generate created database in prisma module
 - npx prisma db pull = to pull tables in database that manually created!
+- npx prisma migrate dev
 
 # DATABASE
 
