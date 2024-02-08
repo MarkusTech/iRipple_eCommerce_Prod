@@ -17,3 +17,7 @@
 - npx shadcn-ui@latest add button
 - npx shadcn-ui@latest add dialog
 - npx shadcn-ui@latest add input
+
+# CLI
+
+- npm i @prisma/client
