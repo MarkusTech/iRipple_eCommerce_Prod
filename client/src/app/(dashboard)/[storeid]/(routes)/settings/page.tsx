@@ -1,4 +1,6 @@
+import prismadb from "@/lib/prismadb";
 import { auth } from "@clerk/nextjs";
+import { redirect } from "next/navigation";
 
 interface SettingsPageProps {
   params: {
@@ -6,9 +8,29 @@ interface SettingsPageProps {
   };
 }
 
-const SettingsPage: React.FC<SettingsPageProps> = ({ params }) => {
+const SettingsPage: React.FC<SettingsPageProps> = async ({ params }) => {
   const { userId } = auth();
-  return <h1>Hello Setting</h1>;
+
+  if (!userId) {
+    redirect("/sign-in");
+  }
+
+  const store = await prismadb.store.findFirst({
+    where: {
+      id: params.storeId,
+      userId,
+    },
+  });
+
+  if (!store) {
+    redirect("/");
+  }
+
+  return (
+    <div>
+      <div>Hello Settings!</div>
+    </div>
+  );
 };
 
 export default SettingsPage;
