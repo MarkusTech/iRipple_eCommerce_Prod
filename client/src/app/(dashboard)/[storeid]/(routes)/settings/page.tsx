@@ -27,8 +27,8 @@ const SettingsPage: React.FC<SettingsPageProps> = async ({ params }) => {
   }
 
   return (
-    <div>
-      <div>Hello Settings!</div>
+    <div className="flex-col">
+      <div className="flex-1 space-y p-8 pt-6">Hello Settings!</div>
     </div>
   );
 };
